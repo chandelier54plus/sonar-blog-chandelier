@@ -1,0 +1,58 @@
+{
+  "name": "sonar-blog-chandelier",
+  "bucket": "sonar-blog-chandelier",
+  "preset": "astro",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240425182218",
+  "not-first-run": true,
+  "function": {
+    "id": 21144,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20779,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1714069910,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1714068624,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 128043,
+      "origin-key": "58e72fd6-447b-4e96-8945-38bdeef05240",
+      "name": "sonar-blog-chandelier_single"
+    },
+    {
+      "origin-id": 128044,
+      "origin-key": "ffecce10-767f-41cc-a0fe-c4efbed7d6b0",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 240440,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 240441,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 240442,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
